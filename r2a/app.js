@@ -52,7 +52,7 @@ app.get('/rss/:hash', function(req, res){
 				var feed = new RSS({
 					title: $('a.catalog_breadcrumbs-link').text(),
 					feed_url: 'http://localhost:3000/rss/Z2F0Y2hpbmEvdmFrYW5zaWkvaXRfaW50ZXJuZXRfdGVsZWtvbQ==',
-					site_url: 'https://www.avito.ru/rossiya/odezhda_obuv_aksessuary/kupit-obuv-muzhskaya-45-ASgBAgICA0TEAcgF3gLYC~AC4gs?q=supernova',
+					site_url: 'http://localhost:3000',
 					language: 'ru',
 					pubDate: 'May 20, 2012 04:00:00 GMT',
 					ttl: 60
